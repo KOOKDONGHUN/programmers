@@ -14,6 +14,7 @@ def grade(score):
 def solution(scores):
     answer = ''
     print(scores)
+    # transpose
     scores = [list(x) for x in zip(*scores)]
     print(scores)
     for i in range(len(scores)):
