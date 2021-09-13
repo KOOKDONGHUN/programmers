@@ -19,7 +19,7 @@ def solution(s):
             s = s.replace(k, v)
 
     answer =int(s)
-    print(answer)
+
     return answer
 
 if __name__ == "__main__":
